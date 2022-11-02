@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather Sans', serif;
+}
+.top-container {
+    background-color: #FFF8EA;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.bottom-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FFF8EA;
+}
+
+.profile_pic {   
+    width: 15%;
+    border-radius: 70%;
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-size: 6.00rem;
+    font-family: 'Sacramento', cursive;
+    color: #9E7676;
+    line-height: 2;
+
+}
+
+p{
+    color: #9E7676;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25rem;
+    margin-top: 0px;
+    color: #9E7676;
+    font-weight: normal;
+
+}
+
+.skill-row {
+    width: 50%;
+    margin-left : auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+
+hr {
+    margin-top : 50px;
+    margin-bottom: 50px;
+    border: 8px dotted;
+    border-style: dotted none none;
+    margin: 100px auto;
+    width: 3%;
+    color: #9E7676;
+
+}
+.machine-learning {
+    width: 20%;
+    float: left;
+    padding-right: 20px;
+}
+
+.web-dev {
+    width: 20%;
+    float: right;
+    padding-left: 20px;
+    position: relative;
+    bottom: 8px;
+    
+}
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #9E7676;
+
+}
+.moutain {
+    position: relative;
+    bottom: -4px;
+}
+.top-cloud {
+    position: absolute;
+    right: 15%;
+
+}
+
+.bot-cloud {
+    position: absolute;
+    left: 15%;
+    bottom: 300px;
+}
+
+a {
+    text-decoration-line: none;
+}
+a:link {
+    color: #9E7676;
+}
+
+a:hover {
+    color: #815B5B;
+}
+
+a:visited {
+    color: #594545;
+}
+
+.myButton {
+	background-color:#FFF8EA;
+	border-radius:28px;
+	border:1px solid #815b5b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#9E7676;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
